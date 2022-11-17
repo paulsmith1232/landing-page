@@ -117,14 +117,31 @@ a {
   font-size: 18px;
 }
 
-/* .quote-section {
+.quote-section {
   background-color: #e5e7eb;
   padding: 0 120px;
-  text-align: center;
   height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.quote-content {
+  padding: 0 180px;
+  display: flex;
+  flex-direction: column;
 }
 
 .quote-text {
   font-size: 36px;
+  font-weight: 300;
   font-style: italic;
-} */
+  text-align: justify;
+  margin-bottom: 0;
+}
+
+.quote-attribution {
+  margin-top: 0;
+  align-self: flex-end;
+  font-size: 22px;
+  font-weight: bold;
+}
