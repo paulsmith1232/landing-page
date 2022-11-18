@@ -77,6 +77,7 @@ a {
   justify-content: center;
   align-items: center;
   background-color: grey;
+  flex-grow: 1;
 }
 
 .info-section {
@@ -145,3 +146,62 @@ a {
   font-size: 22px;
   font-weight: bold;
 }
+
+.call-to-action-section {
+  background-color: white;
+  padding: 0 120px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.call-to-action-container {
+  background-color: #3882f6;
+  border-radius: 8px;
+  display: flex;
+  flex-grow: 1;
+}
+
+.call-to-action-content {
+  /* width: 70%; */
+  padding: 80px 120px;
+  color: white;
+}
+
+.call-to-action-content h1,
+.call-to-action-content p {
+  margin: 0;
+  padding: 0;
+}
+.call-to-action-content p {
+  font-size: 18px;
+}
+
+.call-to-action-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.call-to-action-button button {
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  padding:  12px 40px;
+  border: 3px solid white;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;  
+  padding: 6px 120px;
+  color: white;
+}
+
