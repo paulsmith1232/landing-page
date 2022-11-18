@@ -84,6 +84,11 @@ a {
   background-color: grey;
   height: 250px;
   color: white;
+  overflow: hidden;
+}
+
+.hero-section-image img {
+  width: 100%;
 }
 
 .info-section {
@@ -117,6 +122,11 @@ a {
   border: 4px solid #567ce6;
   border-radius: 10px;
   margin-bottom: 8px;
+}
+
+.info-image-container img {
+  width: 100%;
+  height: 100%;
 }
 
 .info-section-card p {
